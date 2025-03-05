@@ -61,7 +61,7 @@ class _CameraScreenState extends State<CameraScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.blueAccent),
+              valueColor: AlwaysStoppedAnimation<Color>(const Color(0xFF44FF70)),
             ),
             SizedBox(width: 10),
             Text('Checking data...')
@@ -80,7 +80,7 @@ class _CameraScreenState extends State<CameraScreen> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: const Color(0xFF44FF70),
         leading: IconButton(
           onPressed: () => Navigator.pop(context),
           icon: Icon(
@@ -143,7 +143,7 @@ class _CameraScreenState extends State<CameraScreen> {
                     padding: EdgeInsets.only(top: 40),
                     child: ClipOval(
                       child: Material(
-                        color: Colors.blueAccent,
+                        color: const Color(0xFF44FF70),
                         child: InkWell(
                           splashColor: Colors.blue,
                           child: SizedBox(

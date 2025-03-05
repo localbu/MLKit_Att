@@ -37,7 +37,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: const Color(0xFF44FF70),
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
@@ -78,7 +78,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
                     topLeft: Radius.circular(10),
                     topRight: Radius.circular(10),
                   ),
-                  color: Colors.blueAccent,
+                  color: const Color(0xFF44FF70),
                 ),
                 child: Row(
                   children: [
@@ -116,7 +116,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
                     ),
                     labelText: "Your Name",
                     labelStyle:
-                        TextStyle(fontSize: 14, color: Colors.blueAccent),
+                        TextStyle(fontSize: 14, color: const Color(0xFF44FF70)),
                     hintText: "Please Enter Your Name",
                     hintStyle: TextStyle(
                       fontSize: 14,
@@ -125,13 +125,13 @@ class _AbsentScreenState extends State<AbsentScreen> {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                       borderSide: BorderSide(
-                        color: Colors.blueAccent,
+                        color: const Color(0xFF44FF70),
                       ),
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                       borderSide: BorderSide(
-                        color: Colors.blueAccent,
+                        color: const Color(0xFF44FF70),
                       ),
                     ),
                   ),
@@ -144,7 +144,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
-                    color: Colors.blueAccent,
+                    color: const Color(0xFF44FF70),
                   ),
                 ),
               ),
@@ -157,7 +157,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     border: Border.all(
-                      color: Colors.blueAccent,
+                      color: const Color(0xFF44FF70),
                       style: BorderStyle.solid,
                       width: 1,
                     ),
@@ -202,7 +202,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
                               style: TextStyle(
                                   fontSize: 16,
                                   fontWeight: FontWeight.bold,
-                                  color: Colors.blueAccent)),
+                                  color: const Color(0xFF44FF70))),
                           Expanded(
                             child: TextField(
                               readOnly: true,
@@ -220,13 +220,13 @@ class _AbsentScreenState extends State<AbsentScreen> {
                                                   const ColorScheme.light(
                                                       onPrimary: Colors.white,
                                                       onSurface:
-                                                          Colors.blueAccent,
+                                                          const Color(0xFF44FF70),
                                                       primary:
-                                                          Colors.blueAccent),
+                                                          const Color(0xFF44FF70)),
                                               datePickerTheme:
                                                   const DatePickerThemeData(
                                                       headerBackgroundColor:
-                                                          Colors.blueAccent,
+                                                          const Color(0xFF44FF70),
                                                       backgroundColor:
                                                           Colors.white,
                                                       headerForegroundColor:
@@ -248,7 +248,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
                                 contentPadding: EdgeInsets.all(8),
                                 hintText: 'Starting Form',
                                 hintStyle: TextStyle(
-                                    color: Colors.blueAccent, fontSize: 16),
+                                    color: const Color(0xFF44FF70), fontSize: 16),
                               ),
                             ),
                           )
@@ -265,7 +265,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
                               style: TextStyle(
                                   fontSize: 16,
                                   fontWeight: FontWeight.bold,
-                                  color: Colors.blueAccent)),
+                                  color: const Color(0xFF44FF70))),
                           Expanded(
                             child: TextField(
                               readOnly: true,
@@ -283,13 +283,13 @@ class _AbsentScreenState extends State<AbsentScreen> {
                                                   const ColorScheme.light(
                                                       onPrimary: Colors.white,
                                                       onSurface:
-                                                          Colors.blueAccent,
+                                                          const Color(0xFF44FF70),
                                                       primary:
-                                                          Colors.blueAccent),
+                                                          const Color(0xFF44FF70)),
                                               datePickerTheme:
                                                   const DatePickerThemeData(
                                                       headerBackgroundColor:
-                                                          Colors.blueAccent,
+                                                          const Color(0xFF44FF70),
                                                       backgroundColor:
                                                           Colors.white,
                                                       headerForegroundColor:
@@ -311,7 +311,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
                                 contentPadding: EdgeInsets.all(8),
                                 hintText: 'Ending Until',
                                 hintStyle: TextStyle(
-                                    color: Colors.blueAccent, fontSize: 16),
+                                    color: const Color(0xFF44FF70), fontSize: 16),
                               ),
                             ),
                           )
@@ -335,7 +335,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
                     ),
                     child: Material(
                       borderRadius: BorderRadius.circular(20),
-                      color: Colors.blueAccent,
+                      color: const Color(0xFF44FF70),
                       child: InkWell(
                         splashColor: Colors.blue,
                         borderRadius: BorderRadius.circular(20),
@@ -383,7 +383,7 @@ class _AbsentScreenState extends State<AbsentScreen> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           CircularProgressIndicator(
-            valueColor: AlwaysStoppedAnimation<Color>(Colors.blueAccent),
+            valueColor: AlwaysStoppedAnimation<Color>(const Color(0xFF44FF70)),
           ),
           SizedBox(width: 10),
           Text('Checking data...')

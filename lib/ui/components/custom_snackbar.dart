@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void customSnackbar(BuildContext context, IconData icon, String message) {
   ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-    backgroundColor: Colors.blueAccent,
+    backgroundColor: const Color(0xFF44FF70),
     shape: StadiumBorder(),
     behavior: SnackBarBehavior.floating,
     content: Row(

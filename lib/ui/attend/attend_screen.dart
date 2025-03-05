@@ -52,7 +52,7 @@ class _AttendScreenState extends State<AttendScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: const Color(0xFF44FF70),
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
@@ -84,7 +84,7 @@ class _AttendScreenState extends State<AttendScreen> {
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(10),
                       topRight: Radius.circular(10)),
-                  color: Colors.blueAccent,
+                  color: const Color(0xFF44FF70),
                 ),
                 child: Row(
                   children: [
@@ -123,7 +123,7 @@ class _AttendScreenState extends State<AttendScreen> {
                   child: DottedBorder(
                     radius: Radius.circular(10),
                     borderType: BorderType.RRect,
-                    color: Colors.blueAccent,
+                    color: const Color(0xFF44FF70),
                     strokeWidth: 1,
                     dashPattern: [5, 5],
                     child: SizedBox.expand(
@@ -131,7 +131,7 @@ class _AttendScreenState extends State<AttendScreen> {
                           child: image != null
                               ? Image.file(File(image!.path), fit: BoxFit.cover)
                               : const Icon(Icons.camera_enhance_outlined,
-                                  color: Colors.blueAccent)),
+                                  color: const Color(0xFF44FF70))),
                     ),
                   ),
                 ),
@@ -148,7 +148,7 @@ class _AttendScreenState extends State<AttendScreen> {
                     ),
                     labelText: "Your Name",
                     labelStyle:
-                        TextStyle(fontSize: 14, color: Colors.blueAccent),
+                        TextStyle(fontSize: 14, color: const Color(0xFF44FF70)),
                     hintText: "Please Enter Your Name",
                     hintStyle: TextStyle(
                       fontSize: 14,
@@ -157,13 +157,13 @@ class _AttendScreenState extends State<AttendScreen> {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                       borderSide: BorderSide(
-                        color: Colors.blueAccent,
+                        color: const Color(0xFF44FF70),
                       ),
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                       borderSide: BorderSide(
-                        color: Colors.blueAccent,
+                        color: const Color(0xFF44FF70),
                       ),
                     ),
                   ),
@@ -176,14 +176,14 @@ class _AttendScreenState extends State<AttendScreen> {
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
-                    color: Colors.blueAccent,
+                    color: const Color(0xFF44FF70),
                   ),
                 ),
               ),
               isLoading
                   ? Center(
                       child: CircularProgressIndicator(
-                        color: Colors.blueAccent,
+                        color: const Color(0xFF44FF70),
                       ),
                     )
                   : Container(
@@ -199,7 +199,7 @@ class _AttendScreenState extends State<AttendScreen> {
                               disabledBorder: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10),
                                 borderSide: BorderSide(
-                                  color: Colors.blueAccent,
+                                  color: const Color(0xFF44FF70),
                                 ),
                               ),
                               hintText: strAlamat != null
@@ -228,7 +228,7 @@ class _AttendScreenState extends State<AttendScreen> {
                     ),
                     child: Material(
                       borderRadius: BorderRadius.circular(20),
-                      color: Colors.blueAccent,
+                      color: const Color(0xFF44FF70),
                       child: InkWell(
                         splashColor: Colors.blue,
                         borderRadius: BorderRadius.circular(20),
@@ -357,7 +357,7 @@ class _AttendScreenState extends State<AttendScreen> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           CircularProgressIndicator(
-            valueColor: AlwaysStoppedAnimation<Color>(Colors.blueAccent),
+            valueColor: AlwaysStoppedAnimation<Color>(const Color(0xFF44FF70)),
           ),
           SizedBox(width: 10),
           Text('Checking data...')

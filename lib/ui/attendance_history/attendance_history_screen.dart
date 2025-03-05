@@ -19,7 +19,7 @@ class _AttendanceHistoryScreenState extends State<AttendanceHistoryScreen> {
     return Scaffold(
       appBar: AppBar(
           elevation: 0,
-          backgroundColor: Colors.blueAccent,
+          backgroundColor: const Color(0xFF44FF70),
           title: const Text('Attendance History',
               style: TextStyle(
                   fontSize: 18,
@@ -272,7 +272,7 @@ class _AttendanceHistoryScreenState extends State<AttendanceHistoryScreen> {
             } else {
               return Center(
                   child: CircularProgressIndicator(
-                valueColor: AlwaysStoppedAnimation<Color>(Colors.blueAccent),
+                valueColor: AlwaysStoppedAnimation<Color>(const Color(0xFF44FF70)),
               ));
             }
           }),

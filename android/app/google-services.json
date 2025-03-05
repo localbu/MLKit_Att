@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "67985250986",
+    "project_id": "my-absen-siswa",
+    "storage_bucket": "my-absen-siswa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67985250986:android:490efb5179216ff9048ed3",
+        "android_client_info": {
+          "package_name": "com.example.mlkit_studence_atendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUXwL9RHQQ-5Jm8UWHFW6Hc6k3Ho2u9tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67985250986:android:640d9fa3eae8593c048ed3",
+        "android_client_info": {
+          "package_name": "com.example.students_attendance_with_mlki"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUXwL9RHQQ-5Jm8UWHFW6Hc6k3Ho2u9tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67985250986:android:7c3d66bd92cb04a0048ed3",
+        "android_client_info": {
+          "package_name": "com.example.students_attendance_with_mlkit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUXwL9RHQQ-5Jm8UWHFW6Hc6k3Ho2u9tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

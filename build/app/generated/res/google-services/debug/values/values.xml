@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">67985250986</string>
+    <string name="google_api_key" translatable="false">AIzaSyBUXwL9RHQQ-5Jm8UWHFW6Hc6k3Ho2u9tw</string>
+    <string name="google_app_id" translatable="false">1:67985250986:android:7c3d66bd92cb04a0048ed3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBUXwL9RHQQ-5Jm8UWHFW6Hc6k3Ho2u9tw</string>
+    <string name="google_storage_bucket" translatable="false">my-absen-siswa.firebasestorage.app</string>
+    <string name="project_id" translatable="false">my-absen-siswa</string>
+</resources>

@@ -17,11 +17,11 @@
 ## 🚀 Instalasi
 1. Clone repository ini:
    ```sh
-   git clone https://github.com/USERNAME/REPOSITORY_NAME.git
+   git clone https://github.com/localbu/MLKit_Att/
    ```
 2. Masuk ke folder proyek:
    ```sh
-   cd REPOSITORY_NAME
+   cd MLKit_Att
    ```
 3. Install dependencies:
    ```sh
